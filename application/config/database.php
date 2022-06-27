@@ -74,11 +74,24 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	// 'dsn'	=> '',
+	// 'hostname' => 'localhost',
+  	// 'username' => 'root',
+ 	// 'password' => 'ronie123',
+	// 'database' => 'db_envilab',
+
+	'hostname' => '117.102.230.110',
+	'username' => 'adminserver',
+	'password' => 'envilab123',
+	'database' => 'db_envilab_git',
+
+    //'hostname' => '192.168.1.131',
+	//'username' => 'adminserver',
+	//'password' => 'envilab123',
+	//'hostname' => '192.168.1.131',
+
+   //tes
+	//'database' => 'db_env',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
